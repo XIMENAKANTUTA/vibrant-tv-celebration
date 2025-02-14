@@ -4,7 +4,7 @@ const Home = () => {
     <div 
       className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat animate-fadeIn"
       style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1507502707872-893971d1b493?q=80&w=2073&auto=format&fit=crop')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop')",
       }}
     >
       <div className="text-center px-4 space-y-2">

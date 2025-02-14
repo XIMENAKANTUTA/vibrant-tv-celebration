@@ -29,12 +29,18 @@ export default {
       },
       keyframes: {
         glow: {
-          "0%, 100%": {
-            textShadow: "0 0 10px #FF1B8D, 0 0 20px #FF1B8D, 0 0 30px #FF1B8D",
+          "0%": {
+            textShadow: "0 0 10px #FF1B8D, 0 0 20px #FF1B8D",
+            opacity: "0.8"
           },
           "50%": {
             textShadow: "0 0 20px #FF1B8D, 0 0 30px #FF1B8D, 0 0 40px #FF1B8D",
+            opacity: "1"
           },
+          "100%": {
+            textShadow: "0 0 10px #FF1B8D, 0 0 20px #FF1B8D",
+            opacity: "0.8"
+          }
         },
         fadeIn: {
           "0%": { opacity: "0", transform: "translateY(-10px)" },

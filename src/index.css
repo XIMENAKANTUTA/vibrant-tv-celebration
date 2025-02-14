@@ -13,7 +13,7 @@
 
 @layer components {
   .nav-link {
-    @apply px-4 md:px-6 py-2 text-base md:text-xl transition-all duration-300 hover:text-neonPink relative animate-fadeIn;
+    @apply px-4 md:px-6 py-2 text-base md:text-xl transition-all duration-300 hover:text-neonPink relative animate-glow;
   }
 
   .nav-link::after {
@@ -25,7 +25,23 @@
   }
 
   .glowing-title {
-    @apply font-script text-neonPink text-4xl md:text-7xl animate-glow text-center mb-4;
+    @apply font-script text-neonPink text-4xl md:text-7xl text-center mb-4;
+    animation: reflection 2s ease-in-out infinite;
+  }
+
+  @keyframes reflection {
+    0% {
+      filter: brightness(1);
+      transform: translateY(0);
+    }
+    50% {
+      filter: brightness(1.5);
+      transform: translateY(-5px);
+    }
+    100% {
+      filter: brightness(1);
+      transform: translateY(0);
+    }
   }
 
   .video-grid {
