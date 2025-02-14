@@ -28,7 +28,7 @@ const Videos = () => {
   ];
 
   return (
-    <div className="pt-20 pb-8 min-h-screen bg-deepBlack">
+    <div className="pt-20 pb-8 min-h-screen bg-deepBlack videos-page">
       <div className="container mx-auto">
         <div className="video-grid">
           {videoData.map((video) => (

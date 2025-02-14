@@ -7,7 +7,15 @@
 
 @layer base {
   body {
-    @apply bg-deepBlack text-white m-0 p-0 min-h-screen overflow-hidden;
+    @apply bg-deepBlack text-white m-0 p-0 min-h-screen;
+  }
+
+  .home-page {
+    @apply overflow-hidden;
+  }
+
+  .videos-page {
+    @apply overflow-auto;
   }
 }
 
