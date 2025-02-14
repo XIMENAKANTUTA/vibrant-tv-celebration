@@ -2,27 +2,27 @@
 const Videos = () => {
   const videoData = [
     {
-      id: "dQw4w9WgXcQ",
+      id: "BtaWsOlxGQI",
       title: "Un Regalo Especial"
-    },
+    },  
     {
-      id: "Y2V6yjjPbX0",
+      id: "CdiwMwEcQh4",
       title: "Momentos Mágicos"
     },
     {
-      id: "jNQXAC9IVRw",
+      id: "--Q5UfJjlNU",
       title: "Recuerdos Felices"
     },
     {
-      id: "8CEJoCr_9UI",
+      id: "gEx_gSZUXdA",
       title: "Sonrisas Compartidas"
     },
     {
-      id: "31g0YE61PLQ",
+      id: "",
       title: "Instantes Únicos"
     },
     {
-      id: "2Z4m4lnjxkY",
+      id: "T4wlrUqfi6o",
       title: "Celebración Especial"
     }
   ];
