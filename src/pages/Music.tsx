@@ -11,7 +11,7 @@ const Music = () => {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1772029161&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/djhilmar/sets/vale-musicas-mix&color=%23D946EF&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
           
             />
         </div>
