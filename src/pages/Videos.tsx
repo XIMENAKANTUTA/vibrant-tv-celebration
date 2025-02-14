@@ -3,27 +3,27 @@ const Videos = () => {
   const videoData = [
     {
       id: "BtaWsOlxGQI",
-      title: "Un Regalo Especial"
+      title: "Te Amo Mucho Mamita"
     },  
     {
       id: "CdiwMwEcQh4",
-      title: "Momentos Mágicos"
+      title: "Vale Mix Happy 2025"
     },
     {
       id: "--Q5UfJjlNU",
-      title: "Recuerdos Felices"
+      title: "Vale Mix Clasicos 2025"
     },
     {
       id: "gEx_gSZUXdA",
-      title: "Sonrisas Compartidas"
+      title: "Exitos Del Ayer - Vale II"
     },
     {
-      id: "",
-      title: "Instantes Únicos"
+      id: "yjV6vBZRV0Q",
+      title: "Cumbia Villera"
     },
     {
       id: "T4wlrUqfi6o",
-      title: "Celebración Especial"
+      title: "Canciones cumbias tristes"
     }
   ];
 
