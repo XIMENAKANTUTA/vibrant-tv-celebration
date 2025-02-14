@@ -11,8 +11,9 @@ const Music = () => {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1757599191&color=%23ff1b8d&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"
-          />
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1772029161&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
+          
+            />
         </div>
       </div>
     </div>
