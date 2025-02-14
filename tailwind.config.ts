@@ -25,6 +25,7 @@ export default {
       },
       fontFamily: {
         script: ["Dancing Script", "cursive"],
+        marker: ["Permanent Marker", "cursive"],
       },
       keyframes: {
         glow: {
@@ -36,8 +37,8 @@ export default {
           },
         },
         fadeIn: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1" },
+          "0%": { opacity: "0", transform: "translateY(-10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
         },
       },
       animation: {

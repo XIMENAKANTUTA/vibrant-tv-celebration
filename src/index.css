@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Permanent+Marker&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +13,7 @@
 
 @layer components {
   .nav-link {
-    @apply px-6 py-2 text-xl transition-all duration-300 hover:text-neonPink relative;
+    @apply px-4 md:px-6 py-2 text-base md:text-xl transition-all duration-300 hover:text-neonPink relative animate-fadeIn;
   }
 
   .nav-link::after {
@@ -25,7 +25,7 @@
   }
 
   .glowing-title {
-    @apply font-script text-neonPink text-5xl md:text-7xl animate-glow text-center;
+    @apply font-script text-neonPink text-4xl md:text-7xl animate-glow text-center mb-4;
   }
 
   .video-grid {
@@ -38,5 +38,13 @@
 
   .video-iframe {
     @apply absolute top-0 left-0 w-full h-full;
+  }
+
+  .mobile-menu-btn {
+    @apply md:hidden p-2 text-white hover:text-neonPink transition-colors;
+  }
+
+  .mobile-menu {
+    @apply fixed top-16 left-0 w-full bg-black/95 backdrop-blur-lg transform transition-transform duration-300 ease-in-out;
   }
 }

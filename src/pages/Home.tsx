@@ -7,12 +7,15 @@ const Home = () => {
         backgroundImage: "url('https://images.unsplash.com/photo-1507502707872-893971d1b493?q=80&w=2073&auto=format&fit=crop')",
       }}
     >
-      <div className="text-center px-4">
-        <h1 className="glowing-title mb-4">
-          FELIZ CUMPLEAÑOS
+      <div className="text-center px-4 space-y-2">
+        <h1 className="glowing-title">
+          Feliz Cumpleaños
         </h1>
         <h2 className="glowing-title">
-          MAMITA VALENTINA
+          Mamita
+        </h2>
+        <h2 className="glowing-title">
+          Valentina
         </h2>
       </div>
     </div>
